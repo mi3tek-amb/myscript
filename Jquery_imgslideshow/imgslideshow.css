@@ -1,0 +1,77 @@
+#Tmbphoto {
+margin: 0px auto;
+width: 840px;
+overflow: hidden;
+background: url(http://miumiu3tk.sakura.ne.jp/common_image/photoshadow.png)no-repeat;
+}
+#Tmbphoto::after{
+	content: '';
+	clear: both;
+	display: block;
+	zoom:1
+}
+
+
+	#Tmbphoto li {
+	width: 130px;
+	height: 150px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	background-repeat: no-repeat!important;
+	background-position: center center!important;
+	float: left;
+	}
+		
+	#Tmbphoto .tumblrWrap {
+	margin: 0;
+	margin-top: 10px;
+        background: #EEE;
+	padding: 0;
+	}
+	.tumblrWrap .instagram-placeholder {
+		float: left;
+		margin: 2px;
+		border: 1px solid #333;
+		width: 150px;
+		height: 150px;
+		-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+		-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+		box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+		}
+	
+	#Tmbphoto .navi {
+	height: 50px;
+	text-align: center;margin-top: 20px;
+	}
+	#Tmbphoto .next ,#Tmbphoto .prev {
+		display: inline-block;
+		height: 36px;
+		width: 36px;
+		cursor: pointer;
+		}
+		
+		#Tmbphoto .prev {
+		background:url(http://miumiu3tk.sakura.ne.jp/common_image/prev-bt_bw.png);
+		}
+		#Tmbphoto .next {
+		background:url(http://miumiu3tk.sakura.ne.jp/common_image/next-bt_bw.png);
+		}
+		
+		#Tmbphoto .positionNavi {
+		display: inline-block;
+		height: 32px;
+		width: auto;
+		}
+			#Tmbphoto .positionNavi .mark{
+			display: inline-block;
+			background:url(http://miumiu3tk.sakura.ne.jp/common_image/posmarker.png)no-repeat left;
+			height: 32px;
+			width: 32px;
+			}
+		
+
+.skinMessageBoard3 {
+padding:0;
+}
+
