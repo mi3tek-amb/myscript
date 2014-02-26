@@ -5,18 +5,20 @@
  */
 
 ;(function($){
-			
+	
+	$.init = $.init || new Function;
+		
 	$.fn.imageSlider = function(){
 		return this.each(function(){
-			new $.my.imageSlider(this);
+			new $.init.imageSlider(this);
 		});
 	};
 	
-		$.my.imageSlider = function(elem){
+		$.init.imageSlider = function(elem){
 			this.init(elem);
 		};
 		
-		$.my.imageSlider.prototype = {
+		$.init.imageSlider.prototype = {
 			
 			init : function(Elem){									
 
